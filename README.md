@@ -11,7 +11,7 @@
 
 #### **功能设计**
 
- ![功能架构 (2)](..\AndroidProject\功能架构 (2).png)
+ ![功能架构 (2)](../AndroidProject/blob/main/功能架构 (2).png)
 
 ##### 登陆注册模块
 
