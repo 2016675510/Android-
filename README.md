@@ -1,7 +1,7 @@
 # AndroidProject
 #### **技术架构**
 
- ![技术架构图](..\AndroidProject\技术架构图.png)
+ ![技术架构图](..\技术架构图.png)
 
 #### 数据存储
 
