@@ -1,7 +1,7 @@
 # AndroidProject
 #### **技术架构**
 
- ![技术架构图](..\技术架构图.png)
+ ![img](https://github.com/2016675510/AndroidProject/blob/main/%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
 
 #### 数据存储
 
