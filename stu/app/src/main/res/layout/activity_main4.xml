@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.test2.ActivityView.FragmentControlActivity">
+    <FrameLayout
+        android:id="@+id/framelayout_1"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp"
+        android:layout_below="@id/framelayout_1"
+         android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/notebook1"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/notebook1"
+            android:layout_width="45dip"
+            android:layout_height="54dip" />
+        <ImageButton
+            android:id="@+id/bt2"
+            android:layout_marginLeft="80dp"
+            android:layout_toRightOf="@id/notebook1"
+            android:background="@drawable/interest"
+            android:layout_width="45dip"
+            android:layout_height="50dip" />
+        <ImageButton
+            android:id="@+id/bt1"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/book1"
+            android:layout_width="50dip"
+             android:layout_toRightOf="@id/bt2"
+            android:layout_height="54dip" />
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

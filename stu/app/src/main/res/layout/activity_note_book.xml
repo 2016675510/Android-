@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.test2.ActivityView.FragmentView.NoteTxtActivity">
+    <TextView
+        android:text="笔    记"
+        android:background="#3474a3"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editBook"
+            android:layout_width="match_parent"
+            android:hint="请输入笔记"
+            android:layout_height="300dp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/saveBook"
+        android:text="保   存"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        />
+    <Button
+        android:id="@+id/loaddBook"
+        android:text="加    载 "
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        />
+</LinearLayout>
+
+</LinearLayout>

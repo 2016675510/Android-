@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.test2.ActivityView.FragmentView.ToDoActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#d6d7d7"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="待       办"
+            android:textSize="24sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_gravity="right"
+        android:visibility="gone"
+      android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/btn_MoveToTrash"
+            android:layout_width="29dp"
+            android:layout_height="29dp"
+            android:padding="4dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_btn_trash_21"
+            android:background="@drawable/icon_selector"
+
+            android:clickable="true"
+            android:focusable="true"
+             tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/btn_MoveToArchive"
+            android:layout_marginEnd="16dp"
+            android:layout_width="29dp"
+            android:layout_height="29dp"
+            android:padding="4dp"
+            android:background="@drawable/icon_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/ic_btn_archive_21"
+             app:layout_constraintEnd_toStartOf="@id/btn_MoveToTrash"
+             tools:ignore="ContentDescription" />
+        <ImageView
+            android:id="@+id/btn_updateList"
+            android:layout_marginEnd="16dp"
+            android:layout_width="29dp"
+            android:layout_height="29dp"
+            android:padding="4dp"
+            android:background="@drawable/icon_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/ic_btn_update_21"
+             app:layout_constraintEnd_toStartOf="@id/btn_MoveToArchive"
+                />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/toDoListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:divider="@null"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:paddingBottom="60dp"
+        android:clipToPadding="false"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
+
+</LinearLayout>

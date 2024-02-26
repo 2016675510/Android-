@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="checked_icon">
+        <item>@drawable/ic_isnotcheck</item>
+        <item>@drawable/ic_ischeck</item>
+    </string-array>
+</resources>

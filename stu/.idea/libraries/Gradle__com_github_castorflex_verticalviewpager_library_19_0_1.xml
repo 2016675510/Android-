@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.castorflex.verticalviewpager:library-19.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-19.0.1.aar/2c6ee686bc304dd29c5db9c2923f350a/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-19.0.1.aar/2c6ee686bc304dd29c5db9c2923f350a/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.castorflex.verticalviewpager/library/19.0.1/6e2fffb976cbdac3f791eb34469d9fc7edfcf094/library-19.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
